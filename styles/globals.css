@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, */
+    /* Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+   font-family: 'Roboto Condensed', sans-serif;
+   
+   }
+   .textmuted {
+    --bs-text-opacity: 1;
+    color: #fff !important;
+  }
+   .footer{
+    background-color: #151243;
+   }
+  #color{
+    background-color: #fff;
+  }
+   .nav_bg{
+    background-color: #151243;
+  }
+  .nav-link{
+
+    color: black;
+  }
+
+  
+   .object{
+    width: 450px;
+    height: 740px;
+   }
+   .home{
+    background-image: url("https://images.unsplash.com/photo-1497215842964-222b430dc094?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+    @media (max-width:1000px) {
+    .bgnav {
+      width: 500px;
+    }
+  }
+    @media (max-width:330px) {
+    .home {
+      width: 350px;
+      height: 421px;
+      opacity: 0.8;
+    }
+  }
+    @media (max-width:412px) {
+    .home {
+      width: 400px;
+      height: 451px;
+      opacity: 0.8;
+    }
+   
+  }
+   
+    @media (max-width:814px) {
+    .home {
+      width: 800px;
+      height: 501px;
+      opacity: 0.8;
+    }
+    
+      .headtag {
+        margin: 104px;
+          margin-left: 104px;
+        margin-left: 6px;
+      }
+    }
+  
+   @media (max-width:1000px) {
+    .home{
+      width: 1000px;
+      height: 540px;
+     }
+   }
+ /*  @media (max-width:600px) {
+    .home {
+      width: 612px;
+      height: 462px;
+      opacity: 0.9;
+    }
+   } */
+ 
+   
+   .about{
+    background-image: url("https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+    opacity: 0.9;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+ 
+
+
+   .brand-name{
+    color: rgb(64, 64, 253);
+   }
+   .heading{
+    font-size: 2rem;
+    color: #565387;
+    text-decoration: none;
+   }
+   .navbar a{
+    color: white
+   }
+   .navbar a:hover{
+    color: rgb(60, 60, 216);
+   }
+   .menu_active{
+    font-weight: bold;
+    border-color: 1px solid#565387 ;
+   }
+
+
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
